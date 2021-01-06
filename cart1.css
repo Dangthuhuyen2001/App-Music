@@ -1,0 +1,61 @@
+
+    .button1 {
+  
+     padding-left: 130px;
+    }
+    button {
+    cursor: pointer;
+   
+  }
+  
+        .btn-success {
+          padding: 1rem 2rem;
+
+          border: 0;
+          color: white;
+          background-color: white;
+          background-color: var(--primary);
+          text-transform: uppercase;
+          transition: padding 0.25s linear;
+          text-align: center;
+          position: relative;
+        }
+         .btn-success:hover {
+          padding-right: 5rem;
+        }
+         .btn-success i {
+          transition: 0.25s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          right: 2rem;
+          transform: translateY(-50%);
+        }
+         .btn-success:hover i {
+          transform: translateY(-50%);
+          opacity: 1;
+        }
+
+          .noti {
+            padding: 2rem;
+           
+            align-items: center;
+     
+            margin-bottom: 1rem;
+          }
+          
+          .noti .icon {
+            font-size: 2rem;
+            margin-right: 2rem;
+          }
+          .noti .desc {
+            font-weight: 300;
+            font-size: 1.4rem;
+            
+          }
+          .noti .close {
+            margin-left: auto;
+            cursor: pointer;
+          }
+
+  

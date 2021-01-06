@@ -1,0 +1,218 @@
+*{
+	 font-family: comfortaa;
+   font-weight: 50;
+   margin: 0;
+   padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+  :root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+.Slideshow{
+
+}
+
+@media (max-width: 767.98px) {
+
+  .text-gradient{
+    display: none;
+  }
+}
+
+.nav-item{
+  margin-right: 40px;
+}
+.mySlides{
+  height:500px;
+width: 100%;
+}
+.carousel-item{
+  height:400px;
+  width: 1920px;
+}
+.cart{ font-size: 40px;
+  padding: 10px 30px 10px 30px;
+  position: relative;
+  font-size: 14px;
+  }
+   .text-gradient {
+            font-size: 25px;
+padding-right: 90px;
+           font-weight: bold;
+           display: inline-block;
+            color: var(--purple);
+          }
+          @supports (-webkit-background-clip: text) 
+          {
+            .text-gradient {
+              color: transparent;
+              background-image: var(--gradient);
+              -webkit-background-clip: text;
+            }
+          }
+          
+  .container_login {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main {
+    margin: auto;
+    padding: 10px;
+    color: #8b8b8b;
+  }
+  #email {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 400px;
+    height: 45px;
+    text-align: center;
+  }
+  #password {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 400px;
+    height: 45px;
+  }
+  #password_confirm1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 400px;
+    height: 45px;
+  }
+
+  .btn-login {
+    font-size: 20px;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    width: 400px;
+    height: 45px;
+    color: #8b8b8b;
+    margin: 0px 10px;
+  }
+  .btn-guest 
+  {
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    background-color: #af8ddc;
+    color: white;
+  }
+  .btn-back {
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    background-color: #af8ddc;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .btn-guest:hover {
+    background-color: #cbb5e8;
+  }
+  .btn-back:hover {
+    background-color: #cbb5e8;
+  }
+  .btn-login:hover {
+    background-color: #cbb5e8;
+  }
+
+ .line-text {
+   text-align: center;
+            position: relative;
+
+          }
+          .line-text:before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: purple;
+          }
+          .line-text span
+           {
+            display: inline-block;
+            background-color: white;
+            position: relative;
+            z-index: 2;
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 50px;
+            color: purple;
+          }
+
+        .flip-card-inner {
+          width: 100%;
+          height: 100%;
+          perspective: 1000px;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          
+          min-width: 450px;
+        min-height: 350px;
+        display: flex;
+        }
+        .flip-card-inner:hover{
+          transform: rotateY(180deg);
+        }
+        .flip-card .front,
+        .flip-card .back {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+        }
+        .flip-card .back {
+          transform: rotateY(180deg);
+        }
+        .flip-card-inner img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+.flip-card{
+  margin: 30px 10px;
+}
+  footer{
+    color: black;
+
+      margin-top: 50px;
+  }
+     aside{ 
+         font-size: 32px;
+         text-align: center;
+      } 
+.card-img-top{
+  font-size: 50%;
+}
