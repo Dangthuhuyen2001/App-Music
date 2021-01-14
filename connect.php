@@ -1,9 +1,9 @@
 <?php 
 
-$hostName = 'localhost';
-$userName = 'root';
-$passWord = '';
-$databaseName = 'asm1';
+$hostName = '34.200.32.20';
+$userName = 'huyen';
+$passWord = '123@123a';
+$databaseName = 'huyendb';
 
 try {
 		$connect = new PDO('mysql:host=' . $hostName . ';dbname=' . $databaseName, $userName, $passWord);
