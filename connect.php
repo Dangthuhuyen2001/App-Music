@@ -3,7 +3,7 @@
 $hostName = '34.200.32.20';
 $userName = 'huyen';
 $passWord = '123@123a';
-$databaseName = 'huyendb';
+$databaseName = 'huyen';
 
 try {
 		$connect = new PDO('mysql:host=' . $hostName . ';dbname=' . $databaseName, $userName, $passWord);
